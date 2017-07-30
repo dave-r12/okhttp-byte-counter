@@ -1,9 +1,8 @@
-package com.daver;
+package com.github.dave_r12;
 
 import java.io.File;
 import java.io.IOException;
 import java.math.BigDecimal;
-import java.math.MathContext;
 import java.math.RoundingMode;
 import java.util.Collections;
 import java.util.LinkedHashSet;

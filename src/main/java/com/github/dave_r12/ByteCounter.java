@@ -1,4 +1,4 @@
-package com.daver;
+package com.github.dave_r12;
 
 import java.io.IOException;
 import java.io.InputStream;
