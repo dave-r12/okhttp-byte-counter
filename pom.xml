@@ -9,7 +9,7 @@
     <version>7</version>
   </parent>
 
-  <groupId>com.daver.okhttp-byte-counter</groupId>
+  <groupId>com.github.dave-r12</groupId>
   <artifactId>okhttp-byte-counter</artifactId>
   <version>0.8.0-SNAPSHOT</version>
   <packaging>jar</packaging>
