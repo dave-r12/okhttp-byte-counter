@@ -20,7 +20,6 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.InetAddress;
 import java.net.Socket;
-import java.nio.channels.SocketChannel;
 import java.util.concurrent.atomic.AtomicLong;
 import javax.net.SocketFactory;
 
@@ -155,12 +154,6 @@ public final class ByteCounter {
       }
       return outputStream;
     }
-
-    @Override public SocketChannel getChannel() {
-      return super.getChannel();
-    }
-
-
   }
 
   static final class CountingOutputStream extends OutputStream {
