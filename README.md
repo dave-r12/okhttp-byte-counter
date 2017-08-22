@@ -4,7 +4,7 @@ Count the bytes written and read by an OkHttpClient.
 
 ## Android
 
-This won't work on Android, I've opened this issue: https://issuetracker.google.com/issues/64418156
+The TLS implementation on Android does not allow this to work out of the box. Once this change is merged, it should hopefully work on Android: https://github.com/google/conscrypt/issues/65
 
 ## Usage
 
